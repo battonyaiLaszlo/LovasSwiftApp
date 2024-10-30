@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E21FC1C62C2EC253001BFD20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FC1C52C2EC253001BFD20 /* AppDelegate.swift */; };
+		E21FC1C82C2EC253001BFD20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FC1C72C2EC253001BFD20 /* SceneDelegate.swift */; };
+		E21FC1CF2C2EC255001BFD20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21FC1CE2C2EC255001BFD20 /* Assets.xcassets */; };
+		E21FC1D22C2EC255001BFD20 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E21FC1D12C2EC255001BFD20 /* Base */; };
+		E21FC1DC2C2EC600001BFD20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E21FC1DB2C2EC600001BFD20 /* GoogleService-Info.plist */; };
+		E21FC1DF2C2EC690001BFD20 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E21FC1DE2C2EC690001BFD20 /* FirebaseAnalyticsSwift */; };
+		E21FC1E32C2EC690001BFD20 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E21FC1E22C2EC690001BFD20 /* FirebaseAuth */; };
+		E21FC1E52C2EC690001BFD20 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E21FC1E42C2EC690001BFD20 /* FirebaseFirestoreSwift */; };
+		E21FC1E72C2ED6EF001BFD20 /* Rider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FC1E62C2ED6EF001BFD20 /* Rider.swift */; };
+		E21FC1E92C2ED982001BFD20 /* Lovarda+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FC1E82C2ED982001BFD20 /* Lovarda+Location.swift */; };
+		E21FC1EB2C2EDB7E001BFD20 /* Horse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FC1EA2C2EDB7E001BFD20 /* Horse.swift */; };
+		E21FC1ED2C2EDC3D001BFD20 /* Manage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FC1EC2C2EDC3D001BFD20 /* Manage.swift */; };
+		E21FC1EF2C2EDEA8001BFD20 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FC1EE2C2EDEA8001BFD20 /* Comment.swift */; };
+		E21FC1F12C2EE04A001BFD20 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21FC1F02C2EE04A001BFD20 /* News.swift */; };
+		E22833542C4A7ECD00CAE4B5 /* ImageSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22833532C4A7ECC00CAE4B5 /* ImageSliderCell.swift */; };
+		E22833572C4A7F4300CAE4B5 /* LabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22833562C4A7F4300CAE4B5 /* LabelCell.swift */; };
+		E22833592C4A7F4B00CAE4B5 /* InfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22833582C4A7F4B00CAE4B5 /* InfoCell.swift */; };
+		E228335B2C4A7F6700CAE4B5 /* NavigationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E228335A2C4A7F6700CAE4B5 /* NavigationCell.swift */; };
+		E233746B2C3D98CB00E72117 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233746A2C3D98CB00E72117 /* SearchTableViewController.swift */; };
+		E233746D2C3EFC1B00E72117 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233746C2C3EFC1B00E72117 /* CustomAnnotation.swift */; };
+		E23374712C3FD78100E72117 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23374702C3FD78100E72117 /* CustomTableViewCell.swift */; };
+		E23374742C4188A200E72117 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23374732C4188A200E72117 /* DataStorage.swift */; };
+		E25E05602C5F6AAD001E4375 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E055F2C5F6AAD001E4375 /* ProfilViewController.swift */; };
+		E2A8FC002C4E3F9A007546B2 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A8FBFF2C4E3F9A007546B2 /* Colors.swift */; };
+		E2A8FC022C524215007546B2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E2A8FC012C524215007546B2 /* FirebaseStorage */; };
+		E2A8FC042C5C0F47007546B2 /* VelemenyekTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A8FC032C5C0F47007546B2 /* VelemenyekTableViewController.swift */; };
+		E2A8FC062C5C0F84007546B2 /* InformacioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A8FC052C5C0F84007546B2 /* InformacioTableViewController.swift */; };
+		E2B7FBC62C3285FB00CD5F67 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7FBC52C3285FB00CD5F67 /* TabBarController.swift */; };
+		E2B7FBC82C32872D00CD5F67 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7FBC72C32872D00CD5F67 /* MapViewController.swift */; };
+		E2B7FBCD2C3590DE00CD5F67 /* LovardaInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B7FBCC2C3590DE00CD5F67 /* LovardaInfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E21FC1C22C2EC253001BFD20 /* Lovas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lovas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E21FC1C52C2EC253001BFD20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E21FC1C72C2EC253001BFD20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E21FC1CE2C2EC255001BFD20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E21FC1D12C2EC255001BFD20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E21FC1D32C2EC255001BFD20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21FC1DB2C2EC600001BFD20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E21FC1E62C2ED6EF001BFD20 /* Rider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rider.swift; sourceTree = "<group>"; };
+		E21FC1E82C2ED982001BFD20 /* Lovarda+Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lovarda+Location.swift"; sourceTree = "<group>"; };
+		E21FC1EA2C2EDB7E001BFD20 /* Horse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horse.swift; sourceTree = "<group>"; };
+		E21FC1EC2C2EDC3D001BFD20 /* Manage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manage.swift; sourceTree = "<group>"; };
+		E21FC1EE2C2EDEA8001BFD20 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		E21FC1F02C2EE04A001BFD20 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		E22833532C4A7ECC00CAE4B5 /* ImageSliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderCell.swift; sourceTree = "<group>"; };
+		E22833562C4A7F4300CAE4B5 /* LabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCell.swift; sourceTree = "<group>"; };
+		E22833582C4A7F4B00CAE4B5 /* InfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCell.swift; sourceTree = "<group>"; };
+		E228335A2C4A7F6700CAE4B5 /* NavigationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationCell.swift; sourceTree = "<group>"; };
+		E233746A2C3D98CB00E72117 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		E233746C2C3EFC1B00E72117 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		E233746F2C3F106500E72117 /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
+		E23374702C3FD78100E72117 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		E23374732C4188A200E72117 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		E25E055F2C5F6AAD001E4375 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
+		E2A8FBFF2C4E3F9A007546B2 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		E2A8FC032C5C0F47007546B2 /* VelemenyekTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelemenyekTableViewController.swift; sourceTree = "<group>"; };
+		E2A8FC052C5C0F84007546B2 /* InformacioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformacioTableViewController.swift; sourceTree = "<group>"; };
+		E2B7FBC52C3285FB00CD5F67 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E2B7FBC72C32872D00CD5F67 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E2B7FBCC2C3590DE00CD5F67 /* LovardaInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovardaInfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E21FC1BF2C2EC253001BFD20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21FC1E32C2EC690001BFD20 /* FirebaseAuth in Frameworks */,
+				E2A8FC022C524215007546B2 /* FirebaseStorage in Frameworks */,
+				E21FC1DF2C2EC690001BFD20 /* FirebaseAnalyticsSwift in Frameworks */,
+				E21FC1E52C2EC690001BFD20 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E21FC1B92C2EC253001BFD20 = {
+			isa = PBXGroup;
+			children = (
+				E21FC1C42C2EC253001BFD20 /* Lovas */,
+				E21FC1C32C2EC253001BFD20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E21FC1C32C2EC253001BFD20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E21FC1C22C2EC253001BFD20 /* Lovas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E21FC1C42C2EC253001BFD20 /* Lovas */ = {
+			isa = PBXGroup;
+			children = (
+				E233746F2C3F106500E72117 /* TODO.md */,
+				E21FC1DA2C2EC4BE001BFD20 /* Classes */,
+				E21FC1D92C2EC359001BFD20 /* Support */,
+				E2B7FBC92C32873400CD5F67 /* ViewControllers */,
+			);
+			path = Lovas;
+			sourceTree = "<group>";
+		};
+		E21FC1D92C2EC359001BFD20 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E21FC1DB2C2EC600001BFD20 /* GoogleService-Info.plist */,
+				E21FC1CE2C2EC255001BFD20 /* Assets.xcassets */,
+				E21FC1D02C2EC255001BFD20 /* LaunchScreen.storyboard */,
+				E21FC1D32C2EC255001BFD20 /* Info.plist */,
+				E21FC1C52C2EC253001BFD20 /* AppDelegate.swift */,
+				E21FC1C72C2EC253001BFD20 /* SceneDelegate.swift */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		E21FC1DA2C2EC4BE001BFD20 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E23374732C4188A200E72117 /* DataStorage.swift */,
+				E21FC1E62C2ED6EF001BFD20 /* Rider.swift */,
+				E21FC1E82C2ED982001BFD20 /* Lovarda+Location.swift */,
+				E21FC1EA2C2EDB7E001BFD20 /* Horse.swift */,
+				E21FC1EC2C2EDC3D001BFD20 /* Manage.swift */,
+				E21FC1EE2C2EDEA8001BFD20 /* Comment.swift */,
+				E21FC1F02C2EE04A001BFD20 /* News.swift */,
+				E2A8FBFF2C4E3F9A007546B2 /* Colors.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E22833552C4A7ED700CAE4B5 /* Lovarda Info */ = {
+			isa = PBXGroup;
+			children = (
+				E2B7FBCC2C3590DE00CD5F67 /* LovardaInfoViewController.swift */,
+				E22833532C4A7ECC00CAE4B5 /* ImageSliderCell.swift */,
+				E22833562C4A7F4300CAE4B5 /* LabelCell.swift */,
+				E22833582C4A7F4B00CAE4B5 /* InfoCell.swift */,
+				E228335A2C4A7F6700CAE4B5 /* NavigationCell.swift */,
+				E2A8FC032C5C0F47007546B2 /* VelemenyekTableViewController.swift */,
+				E2A8FC052C5C0F84007546B2 /* InformacioTableViewController.swift */,
+			);
+			name = "Lovarda Info";
+			sourceTree = "<group>";
+		};
+		E233746E2C3F103100E72117 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E233746C2C3EFC1B00E72117 /* CustomAnnotation.swift */,
+				E2B7FBC72C32872D00CD5F67 /* MapViewController.swift */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		E23374722C3FD79500E72117 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E23374702C3FD78100E72117 /* CustomTableViewCell.swift */,
+				E233746A2C3D98CB00E72117 /* SearchTableViewController.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		E2B7FBC92C32873400CD5F67 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E23374722C3FD79500E72117 /* Search */,
+				E233746E2C3F103100E72117 /* Map */,
+				E2B7FBC52C3285FB00CD5F67 /* TabBarController.swift */,
+				E25E055F2C5F6AAD001E4375 /* ProfilViewController.swift */,
+				E22833552C4A7ED700CAE4B5 /* Lovarda Info */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E21FC1C12C2EC253001BFD20 /* Lovas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21FC1D62C2EC255001BFD20 /* Build configuration list for PBXNativeTarget "Lovas" */;
+			buildPhases = (
+				E21FC1BE2C2EC253001BFD20 /* Sources */,
+				E21FC1BF2C2EC253001BFD20 /* Frameworks */,
+				E21FC1C02C2EC253001BFD20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lovas;
+			packageProductDependencies = (
+				E21FC1DE2C2EC690001BFD20 /* FirebaseAnalyticsSwift */,
+				E21FC1E22C2EC690001BFD20 /* FirebaseAuth */,
+				E21FC1E42C2EC690001BFD20 /* FirebaseFirestoreSwift */,
+				E2A8FC012C524215007546B2 /* FirebaseStorage */,
+			);
+			productName = Lovas;
+			productReference = E21FC1C22C2EC253001BFD20 /* Lovas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E21FC1BA2C2EC253001BFD20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E21FC1C12C2EC253001BFD20 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = E21FC1BD2C2EC253001BFD20 /* Build configuration list for PBXProject "Lovas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E21FC1B92C2EC253001BFD20;
+			packageReferences = (
+				E21FC1DD2C2EC690001BFD20 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = E21FC1C32C2EC253001BFD20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E21FC1C12C2EC253001BFD20 /* Lovas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E21FC1C02C2EC253001BFD20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21FC1CF2C2EC255001BFD20 /* Assets.xcassets in Resources */,
+				E21FC1D22C2EC255001BFD20 /* Base in Resources */,
+				E21FC1DC2C2EC600001BFD20 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E21FC1BE2C2EC253001BFD20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25E05602C5F6AAD001E4375 /* ProfilViewController.swift in Sources */,
+				E2A8FC042C5C0F47007546B2 /* VelemenyekTableViewController.swift in Sources */,
+				E21FC1C62C2EC253001BFD20 /* AppDelegate.swift in Sources */,
+				E21FC1EB2C2EDB7E001BFD20 /* Horse.swift in Sources */,
+				E21FC1F12C2EE04A001BFD20 /* News.swift in Sources */,
+				E22833572C4A7F4300CAE4B5 /* LabelCell.swift in Sources */,
+				E2B7FBC82C32872D00CD5F67 /* MapViewController.swift in Sources */,
+				E2A8FC062C5C0F84007546B2 /* InformacioTableViewController.swift in Sources */,
+				E2B7FBC62C3285FB00CD5F67 /* TabBarController.swift in Sources */,
+				E21FC1EF2C2EDEA8001BFD20 /* Comment.swift in Sources */,
+				E23374712C3FD78100E72117 /* CustomTableViewCell.swift in Sources */,
+				E21FC1ED2C2EDC3D001BFD20 /* Manage.swift in Sources */,
+				E21FC1E92C2ED982001BFD20 /* Lovarda+Location.swift in Sources */,
+				E2A8FC002C4E3F9A007546B2 /* Colors.swift in Sources */,
+				E21FC1C82C2EC253001BFD20 /* SceneDelegate.swift in Sources */,
+				E21FC1E72C2ED6EF001BFD20 /* Rider.swift in Sources */,
+				E228335B2C4A7F6700CAE4B5 /* NavigationCell.swift in Sources */,
+				E22833542C4A7ECD00CAE4B5 /* ImageSliderCell.swift in Sources */,
+				E23374742C4188A200E72117 /* DataStorage.swift in Sources */,
+				E233746B2C3D98CB00E72117 /* SearchTableViewController.swift in Sources */,
+				E2B7FBCD2C3590DE00CD5F67 /* LovardaInfoViewController.swift in Sources */,
+				E22833592C4A7F4B00CAE4B5 /* InfoCell.swift in Sources */,
+				E233746D2C3EFC1B00E72117 /* CustomAnnotation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E21FC1D02C2EC255001BFD20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E21FC1D12C2EC255001BFD20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E21FC1D42C2EC255001BFD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E21FC1D52C2EC255001BFD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E21FC1D72C2EC255001BFD20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJ5QNT7KTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lovas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = battonyai.Lovas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E21FC1D82C2EC255001BFD20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FJ5QNT7KTC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lovas/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = battonyai.Lovas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E21FC1BD2C2EC253001BFD20 /* Build configuration list for PBXProject "Lovas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21FC1D42C2EC255001BFD20 /* Debug */,
+				E21FC1D52C2EC255001BFD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E21FC1D62C2EC255001BFD20 /* Build configuration list for PBXNativeTarget "Lovas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E21FC1D72C2EC255001BFD20 /* Debug */,
+				E21FC1D82C2EC255001BFD20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E21FC1DD2C2EC690001BFD20 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E21FC1DE2C2EC690001BFD20 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E21FC1DD2C2EC690001BFD20 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		E21FC1E22C2EC690001BFD20 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E21FC1DD2C2EC690001BFD20 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E21FC1E42C2EC690001BFD20 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E21FC1DD2C2EC690001BFD20 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		E2A8FC012C524215007546B2 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E21FC1DD2C2EC690001BFD20 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E21FC1BA2C2EC253001BFD20 /* Project object */;
+}

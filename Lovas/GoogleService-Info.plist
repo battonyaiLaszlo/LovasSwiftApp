@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDzUMSdU2-HQH-QZFKQ_NCQb1AUpO0MP_4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1034949789866</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>battonyai.Lovas</string>
+	<key>PROJECT_ID</key>
+	<string>lovas-38843</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lovas-38843.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1034949789866:ios:5e9d74e3869e82d160a8d3</string>
+</dict>
+</plist>
